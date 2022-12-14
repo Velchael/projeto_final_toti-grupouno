@@ -1,11 +1,6 @@
 {
   "posts": [
     {
-      "title": "pedro",
-      "author": "",
-      "id": 5
-    },
-    {
       "title": "Kidelmynha",
       "author": "Ful-stak",
       "id": 7
@@ -34,6 +29,11 @@
       "title": "carlos",
       "author": "Word",
       "id": 16
+    },
+    {
+      "title": "Juan",
+      "author": "Css3",
+      "id": 17
     }
   ]
 }

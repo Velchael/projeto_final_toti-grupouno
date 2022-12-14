@@ -1,12 +1,13 @@
 import React from "react";
-import './Cardanimais.css';
+
 //criar a classe com o nome Headers
 import { Link } from 'react-router-dom';
-
+import '../Apprutas.css';
 export default function Cursos(){
     
     return(
-
+    <div>
+    <form className="cortres">
            <div className="presenta_css">
                  <h1>Módulo 1</h1>
             <h2>Fundamentos do Desenvolvimento Web</h2>
@@ -83,6 +84,8 @@ export default function Cursos(){
 
         </p>
         <Link to= "/" style = { {  textDecoration : 'none' , color : "white" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
-    </div>   
+    </div>  
+    </form>
+    </div> 
     ) 
 }
