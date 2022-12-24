@@ -5,7 +5,7 @@ export default function Modulodos(){
     
     return(
     <div>
-    <form className="cortres">
+    <form className="cortresmodulodos">
            <div className="presenta_css">
         <h1>Módulo 2</h1>
             <h2>Desenvolvimento Front-end</h2>

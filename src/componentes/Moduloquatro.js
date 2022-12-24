@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import '../Apprutas.css';
-export default function Modulouno(){
+export default function Moduloquatro(){
     
     return(
     <div>
-    <form className="cortres">
+    <form className="cortresmoduloquatro">
            <div className="presenta_css">
 
           <h1>Módulo 4</h1>
