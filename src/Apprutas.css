@@ -1,9 +1,10 @@
 
 body {
   margin: 0;
-  background: hsla(150, 11%, 96%, 0.868);
+  /*background: hsla(150, 11%, 96%, 0.868);*/
   align-items: center;
   text-align: center; 
+  background: url("pasta/pexels-lukas-574073.jpg")
 } 
 
 .centrasobrenos{

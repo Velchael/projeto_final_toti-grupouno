@@ -1,6 +1,6 @@
 import React from "react";
-import CreateList from "./CreateList";
-import Lists from "./Lists";
+import CreateList from "./componentes/CreateList";
+import Lists from "./componentes/Lists";
 
 
 

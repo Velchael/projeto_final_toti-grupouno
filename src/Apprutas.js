@@ -11,6 +11,10 @@ import Modulodos from './componentes/Modulodos';
 import Modulotres from './componentes/Modulotres';
 import Moduloquatro from './componentes/Moduloquatro';
 
+import App from './App';
+/*import Iniciouno from './Iniciouno';*/
+
+
 function Apprutas() {
   return(
     <Router>
@@ -18,8 +22,11 @@ function Apprutas() {
         <ul>
            <header className="App-header">
             <l1><Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link></l1>
+            
             <h3 className='separalogo'>Instituto NU </h3>                
             <ol className="oldos">
+           
+             <l1 className="liuno"><Link to="/App"className="atres"style={{ textDecoration: 'none' }}>Cadastro </Link></l1> 
              <l1 className="liuno"><Link to="/componentes/Cursos"className="atres"style={{ textDecoration: 'none' }}>Cursos </Link></l1>
              <l1 className="liuno"><Link to="/componentes/SobreNos"className="atres"style={{ textDecoration: 'none' }}>Sobre nós </Link></l1>
 			       <l1 className="liuno"><Link to="/componentes/Faleconnosco"className="atres"style={{ textDecoration: 'none' }}>Fale Conosco </Link></l1>
@@ -29,6 +36,7 @@ function Apprutas() {
       </div>
     
       <Routes>
+        <Route path="/App"element={<App />}/>
         <Route path="/componentes/Cursos"element={<Cursos />}>
             <Route path="modulouno" element={<Modulouno />} />
             <Route path="modulodos" element={<Modulodos />} />
