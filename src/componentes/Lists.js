@@ -1,12 +1,12 @@
 import React from 'react'
 import UpdateList from './UpdateList';
 import DeleteList from './DeleteList';
-
+import '../Apprutas.css';
 function Lists(props) {
     var rows = [];
     props.alldata.forEach(element => {
         rows.push(
-        <tr key={element.id}>
+        <tr className="fondocrud" key={element.id}>
             <td>{element.id}</td>
             <td>{element.title}</td>
             <td>{element.author}</td>
@@ -27,7 +27,7 @@ function Lists(props) {
     });
     return(
       <table className="table table-striped">
-          <thead>
+          <thead className="fondocrud">
               <tr>
                   <th>#</th>
                   <th>Nome do Aluno</th>
@@ -39,6 +39,7 @@ function Lists(props) {
         <tbody>{rows}</tbody>
       </table>
     )
+    
 }
 
 export default Lists;

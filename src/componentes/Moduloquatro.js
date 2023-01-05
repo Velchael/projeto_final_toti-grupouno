@@ -5,8 +5,8 @@ export default function Moduloquatro(){
     
     return(
     <div>
-    <form className="cortresmoduloquatro">
-           <div className="presenta_css">
+    <form className="presenta_css">
+           <div>
 
           <h1>Módulo 4</h1>
             <h2>Ciência da computação</h2>
@@ -24,7 +24,7 @@ export default function Moduloquatro(){
             •Raspagem de Dados
 
         </p>
-        <Link to= "/" style = { {  textDecoration : 'none' , color : "white" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
+        <Link to= "/" style = { {  textDecoration : 'none' , color : "red" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
     </div>  
     </form>
     </div> 

@@ -5,8 +5,8 @@ export default function Modulouno(){
     
     return(
     <div>
-    <form className="cortres">
-           <div className="presenta_css">
+    <form className="presenta_css">
+           <div>
                  <h1>Módulo 1</h1>
             <h2>Fundamentos do Desenvolvimento Web</h2>
             <h3> O que vou aprender?</h3>
@@ -24,7 +24,7 @@ export default function Modulouno(){
         •Javascript
         •Testes Unitários em Javascript  
         </p>
-        <Link to= "/" style = { {  textDecoration : 'none' , color : "white" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
+        <Link to= "/" style = { {  textDecoration : 'none' , color : "red" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
     </div>  
     </form>
     </div> 

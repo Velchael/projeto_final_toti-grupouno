@@ -19,20 +19,20 @@ function Apprutas() {
   return(
     <Router>
       <div>
-        <ul>
+        
            <header className="App-header">
             <l1><Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link></l1>
             
-            <h3 className='separalogo'>Instituto NU </h3>                
-            <ol className="oldos">
-           
-             <l1 className="liuno"><Link to="/App"className="atres"style={{ textDecoration: 'none' }}>Cadastro </Link></l1> 
-             <l1 className="liuno"><Link to="/componentes/Cursos"className="atres"style={{ textDecoration: 'none' }}>Cursos </Link></l1>
-             <l1 className="liuno"><Link to="/componentes/SobreNos"className="atres"style={{ textDecoration: 'none' }}>Sobre nós </Link></l1>
-			       <l1 className="liuno"><Link to="/componentes/Faleconnosco"className="atres"style={{ textDecoration: 'none' }}>Fale Conosco </Link></l1>
-		        </ol>   
-           </header>
-        </ul>
+            <p className="App-header">Instituto NU </p>
+            
+            <ul>
+             <l1 className="liuno"><Link to="/App"className="atres"style={{ textDecoration: 'none' }}>Inscrição </Link></l1> 
+             <l1 className="liuno"><Link to="/componentes/Cursos"className="atres"style={{ textDecoration: 'none' }}> Cursos </Link></l1>
+             <l1 className="liuno"><Link to="/componentes/SobreNos"className="atres"style={{ textDecoration: 'none' }}> Sobre nós </Link></l1>
+			       <l1 className="liuno"><Link to="/componentes/Faleconnosco"className="atres"style={{ textDecoration: 'none' }}> Fale Conosco </Link></l1>
+		        </ul>
+            </header>
+        
       </div>
     
       <Routes>

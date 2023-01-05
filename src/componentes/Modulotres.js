@@ -5,8 +5,8 @@ export default function Modulotres(){
     
     return(
     <div>
-    <form className="cortresmodulotres">
-           <div className="presenta_css">
+    <form className="presenta_css">
+           <div>
       <h1>Módulo 3</h1>
             <h2>Desenvolvimento Back-end</h2>
             <h3> O que vou aprender?</h3>
@@ -29,7 +29,7 @@ export default function Modulotres(){
             •Testes Unitários
             •Testes de Integração
           </p>
-        <Link to= "/" style = { {  textDecoration : 'none' , color : "white" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
+        <Link to= "/" style = { {  textDecoration : 'none' , color : "red" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
     </div>  
     </form>
     </div> 

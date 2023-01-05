@@ -5,8 +5,8 @@ export default function Modulodos(){
     
     return(
     <div>
-    <form className="cortresmodulodos">
-           <div className="presenta_css">
+    <form className="presenta_css">
+           <div>
         <h1>Módulo 2</h1>
             <h2>Desenvolvimento Front-end</h2>
             <h3> O que vou aprender?</h3>
@@ -22,7 +22,7 @@ export default function Modulodos(){
        •Javascript
        •React e Testes Unitários
       </p>
-        <Link to= "/" style = { {  textDecoration : 'none' , color : "white" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
+        <Link to= "/" style = { {  textDecoration : 'none' , color : "red" } } > ..[ RETORNAR A PÁGINA INICIAL ].. </Link>
     </div>  
     </form>
     </div> 

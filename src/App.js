@@ -2,10 +2,8 @@ import React from "react";
 import CreateList from "./componentes/CreateList";
 import Lists from "./componentes/Lists";
 
-
-
-
 class App extends React.Component {
+ 
   constructor(props) {
     super(props);
     this.state = {

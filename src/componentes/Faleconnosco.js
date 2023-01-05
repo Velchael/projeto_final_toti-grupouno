@@ -32,7 +32,8 @@ function Faleconnosco(){
     </div>
     </li>
     <li>
-         <Link to= "/" style = { {  textDecoration : 'none' , color : "black" } } >[ RETORNAR A PÁGINA INICIAL ] </Link>
+      <hr/>
+         <Link to= "/" style = { {  textDecoration : 'none' , color : "red" } } >[ RETORNAR A PÁGINA INICIAL ] </Link>
     </li>
     </ul>
     </nav>
