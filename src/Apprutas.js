@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router,Route,Routes,Link } from 'react-router-dom';
-
 import Cursos from './componentes/Cursos';
 import './Apprutas.css';
 import logo from './logo.svg';
@@ -10,9 +9,8 @@ import Modulouno from './componentes/Modulouno';
 import Modulodos from './componentes/Modulodos';
 import Modulotres from './componentes/Modulotres';
 import Moduloquatro from './componentes/Moduloquatro';
-
 import App from './App';
-/*import Iniciouno from './Iniciouno';*/
+import { NoMatch } from './componentes/NoMatch';
 
 
 function Apprutas() {
@@ -21,18 +19,17 @@ function Apprutas() {
       <div>
         
            <header className="App-header">
-            <l1><Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link></l1>
+            <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link>
             
             <p className="App-header">Instituto NU </p>
+            <nav>
+             <Link to ="/App"className="atres" style={{ textDecoration: 'none' }}>Inscrição </Link>
+             <Link to="/componentes/Cursos"className="atres"style={{ textDecoration: 'none' }}> Cursos </Link>
+             <Link to="/componentes/SobreNos"className="atres"style={{ textDecoration: 'none' }}> Sobre nós </Link>
+			       <Link to="/componentes/Faleconnosco"className="atres"style={{ textDecoration: 'none' }}> Fale Conosco </Link>
+		        </nav>
             
-            <ul>
-             <l1 className="liuno"><Link to="/App"className="atres"style={{ textDecoration: 'none' }}>Inscrição </Link></l1> 
-             <l1 className="liuno"><Link to="/componentes/Cursos"className="atres"style={{ textDecoration: 'none' }}> Cursos </Link></l1>
-             <l1 className="liuno"><Link to="/componentes/SobreNos"className="atres"style={{ textDecoration: 'none' }}> Sobre nós </Link></l1>
-			       <l1 className="liuno"><Link to="/componentes/Faleconnosco"className="atres"style={{ textDecoration: 'none' }}> Fale Conosco </Link></l1>
-		        </ul>
-            </header>
-        
+           </header>
       </div>
     
       <Routes>
@@ -45,6 +42,7 @@ function Apprutas() {
           </Route>
         <Route path="/componentes/SobreNos"element={<SobreNos />}/>
         <Route path="/componentes/Faleconnosco"element={<Faleconnosco />}/>
+        <Route path="*"element={<NoMatch />}/>
       </Routes>
     </Router>
     );
